@@ -1,5 +1,5 @@
-import './App.css';
-import { Routes, Route } from 'react-router-dom';
+import './App.scss';
+import { Routes, Route ,useLocation } from 'react-router-dom';
 import Particles from "react-tsparticles";
 import { loadFull } from 'tsparticles';
 import Home from './containers/home';
@@ -10,21 +10,31 @@ import Portfolio from './containers/portfolio';
 import Skills from './containers/skills';
 import Navbar from './components/navbar';
 import particles from './utils.js/particles';
+import { render } from '@testing-library/react';
 
 function App() {
+  const location = useLocation();
+  console.log(location);
   const handleInit = async (main) => {
     await loadFull(main);  // Initialize tsparticles
   }
 
+  const renderparticleJsInHomePage = location.pathname==="/"
+
   return (
     <div className="App">
       {/* Particles component with options */}
-      <Particles id="particles" options={particles} init={handleInit} />
+
+      {
+        renderparticleJsInHomePage && (
+          <Particles id="particles" options={particles} init={handleInit} />
+        )}
+      
 
       {/* Navbar */}
       <Navbar />
 
-      {/* Main page content */}
+      <div className='App__main-page-content'>
       <Routes>
         <Route index path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
@@ -33,6 +43,10 @@ function App() {
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/skills' element={<Skills />} />
       </Routes>
+      </div>
+
+      {/* Main page content */}
+      
     </div>
   );
 }
