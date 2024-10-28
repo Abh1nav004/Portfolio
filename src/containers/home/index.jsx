@@ -18,7 +18,7 @@ const Home = () => {
             <h1>
                 Hello, I'm Abhinav Sharma
                 <br/>
-                Software/Web Developer
+                Software / Web Developer
             </h1>
         </div>
         <Animate

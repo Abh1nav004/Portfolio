@@ -15,9 +15,9 @@
         justify-content: center;
         
         h1{
-            font-family: 'Playfair Display', serif;
-            font-optical-sizing: auto;
-            font-weight: 400; 
+            font-family: "Barrio", system-ui;
+            font-weight: 400;
+            font-style: normal;
             font-style: normal;
             color: var(--yellow-theme-main-color);
             margin:0px;
@@ -27,7 +27,7 @@
             overflow:hidden;
             white-space: nowrap;
             animation:typingEffectAnimation 2.5s steps(30,end);
-            font-family: 'Playwrite GB S', cursive;
+            
         }
     }
 
