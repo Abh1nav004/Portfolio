@@ -5,7 +5,7 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import { data } from './utils';
 import 'react-vertical-timeline-component/style.min.css';
 import './styles.scss';
-
+import { MdWork } from 'react-icons/md';
 const Resume = () => {
     return (
         <section id='resume' className='resume'>
@@ -28,6 +28,17 @@ const Resume = () => {
                             <VerticalTimelineElement
                             key={i}
                            className='timeline__experience__vertical-timeline-element'
+                           contentStyle={{
+                            background: 'none',
+                            color: 'var(--yellow-theme-sub-text-color)',
+                            border: '1.5px solid var(--yellow-theme-main-color)'
+                           }}
+                           date='2020 - Present'
+                           icon={<MdWork/>}
+                           iconStyle={{
+                            background: '#181818',
+                            color: 'var(--yellow-theme-main-color)',
+                           }}
                             >
                                 <div className="vertical-timeline-element-title-wrapper">
                                     <h3 className='vertical-timeline-element-title'>
@@ -37,8 +48,9 @@ const Resume = () => {
                                     <h4 className='vertical-timeline-element-subtitle'>
                                         {items.subTitle}
                                     </h4>
-                                    <p>{items.description}</p>
+                                   
                                 </div>
+                                <p className='vertical-timeline-element-title-wrapper-description'>{items.description}</p>
 
                             </VerticalTimelineElement>
                         ))
@@ -59,6 +71,17 @@ const Resume = () => {
                             <VerticalTimelineElement
                             key={i}
                            className='timeline__education__vertical-timeline-element'
+                           contentStyle={{
+                            background: 'none',
+                            color: 'var(--yellow-theme-sub-text-color)',
+                            border: '1.5px solid var(--yellow-theme-main-color)'
+                           }}
+                           date='2020 - Present'
+                           icon={<MdWork/>}
+                           iconStyle={{
+                            background: '#181818',
+                            color: 'var(--yellow-theme-main-color)',
+                           }}
                             >
                                 <div className="vertical-timeline-element-title-wrapper">
                                     <h3 className='vertical-timeline-element-title'>
@@ -68,8 +91,8 @@ const Resume = () => {
                                     <h4 className='vertical-timeline-element-subtitle'>
                                         {items.subTitle}
                                     </h4>
-                                    <p>{items.description}</p>
                                 </div>
+                                <p className='vertical-timeline-element-title-wrapper-description'>{items.description}</p>
 
                             </VerticalTimelineElement>
                         ))
