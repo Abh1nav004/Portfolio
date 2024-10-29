@@ -20,6 +20,7 @@ const Home = () => {
                 <br/>
                 Software / Web Developer
             </h1>
+           
         </div>
         <Animate
         play
@@ -34,6 +35,9 @@ const Home = () => {
         >
         <div className="home__contact-me">
           <button onClick={handleNavigateToContactMePage}>Hire Me</button>
+          <a href="/resume.pdf" download>
+                        <button>Resume</button>
+                    </a>
         </div>
         </Animate>
       
