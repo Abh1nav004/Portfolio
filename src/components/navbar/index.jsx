@@ -14,21 +14,22 @@ const data = [
     to: "/about",
   },
   {
-    label: "CONTACT",
-    to: "/contact",
+    label: "SKILLS",
+    to: "/skills",
   },
   {
     label: "PORTFOLIO",
     to: "/portfolio",
   },
   {
-    label: "SKILLS",
-    to: "/skills",
-  },
-  {
     label: "RESUME",
     to: "/resume",
   },
+  {
+    label: "CONTACT",
+    to: "/contact",
+  },
+  
 ];
 
 const Navbar = () => {
