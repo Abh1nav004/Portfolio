@@ -4,27 +4,27 @@ export const skillsData = [
         data: [
             {
                 skillName: "HTML",
-                percentage: "90",
+                percentage: "80",
             },
             {
                 skillName: "CSS",
-                percentage: "50",
+                percentage: "80",
             },
             {
                 skillName: "JAVASCRIPT",
-                percentage: "90",
+                percentage: "80",
             },
             {
                 skillName: "REACT JS",
                 percentage: "90",
             },
             {
-                skillName: "TYPESCRIPT",
-                percentage: "90",
+                skillName: "TAILWIND",
+                percentage: "60",
             },
             {
-                skillName: "TAILWIND",
-                percentage: "90",
+                skillName: "TYPESCRIPT",
+                percentage: "40",
             },
 
         ],
@@ -42,6 +42,10 @@ export const skillsData = [
             },
             {
                 skillName: "C#",
+                percentage: "40",
+            },
+            {
+                skillName: "NODE JS",
                 percentage: "90",
             },
         ]
@@ -55,11 +59,36 @@ export const skillsData = [
             },
             {
                 skillName: "MONGODB",
-                percentage: "90",
+                percentage: "80",
             },
             {
                 skillName: "ORACLE",
+                percentage: "70",
+            },
+            {
+                skillName: "DOCKER",
+                percentage: "40",
+            },
+            {
+                skillName: "AWS",
+                percentage: "50",
+            },
+        ]
+    },
+    {
+        label: "Software",
+        data: [
+            {
+                skillName: "DSA",
                 percentage: "90",
+            },
+            {
+                skillName: "C++",
+                percentage: "90",
+            },
+            {
+                skillName: "C",
+                percentage: "70",
             },
         ]
     }
