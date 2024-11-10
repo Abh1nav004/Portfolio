@@ -10,7 +10,7 @@ import Portfolio from './containers/portfolio';
 import Skills from './containers/skills';
 import Navbar from './components/navbar';
 import particles from './utils.js/particles';
-import { render } from '@testing-library/react';
+
 
 function App() {
   const location = useLocation();
