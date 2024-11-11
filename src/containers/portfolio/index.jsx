@@ -10,28 +10,29 @@ import './styles.scss'
 const portfolioData = [
     {
         id: 2,
-        name: "Ecommerce",
-        image: ImageOne,
-        link : 'https://github.com/Abh1nav004/Saga_Angular'
+        name: "EliteCare",
+        image: ImageTwo,
+        link : 'https://github.com/shaikyajash/EliteCare'
     },
     {
-        id: 2,
-        name: "SIH",
-        image: ImageTwo,
-        link : ''
-    },
+      id: 3,
+      name: "HUMAN - Self Development Tool",
+      image: ImageFour,
+      link : 'https://github.com/Abh1nav004/Human'
+  },
+  {
+    id: 2,
+    name: "Ecommerce",
+    image: ImageOne,
+    link : 'https://github.com/Abh1nav004/Saga_Angular'
+},
     {
         id: 2,
         name: "Discord AI Bot",
         image: ImageThree,
-        link : ''
+        link : 'https://github.com/Abh1nav004/AI-integrated-Discord-Bot'
     },
-    {
-        id: 3,
-        name: "Human-Self Development Tool",
-        image: ImageFour,
-        link : ''
-    },
+    
 ]
 
 const filterData = [
