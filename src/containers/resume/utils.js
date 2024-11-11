@@ -41,13 +41,14 @@ export const data = {
     ],
     achievements: [
         {
-            title: "100 Days Badge 2024 - LeetCode",
-            description: "Awarded to the top 4.2% of LeetCoders for 100+ days of problem-solving in 2024."
-        },
-        {
             title: "Smart India Hackathon 2024 Semi Finalist",
             description: "Presented 'EliteCare' at a national-level hackathon, earning industry recognition."
+        },
+        {
+            title: "100 Days Badge 2024 - LeetCode",
+            description: "Awarded to the top 4.2% of LeetCoders for 100+ days of problem-solving in 2024."
         }
+
     ],
     skills: [
         { name: "JavaScript", level: "Advanced" },
