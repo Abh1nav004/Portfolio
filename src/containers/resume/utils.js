@@ -1,9 +1,9 @@
 export const data = {
     experience: [
         {
-            title: "Software Engineer Intern",
-            subTitle: "Zeotap - Bengaluru, India",
-            description: "Java, Python, SQL, API Development, Problem-solving, Collaboration"
+            title: "Campus Embassador",
+            subTitle: "IIT Bombay Ecell, India",
+            description: "Event Management, Task Completion, Team Work, Problem-solving, Collaboration"
         },
         {
             title: "Smart India Hackathon Participant",
@@ -19,20 +19,24 @@ export const data = {
         }
     ],
     projects: [
+        
         {
-            title: "Sudoku Solver Visualizer",
-            subTitle: "Java, Backtracking, UI Design",
-            description: "An interactive tool for visualizing the solution of Sudoku puzzles."
-        },
-        {
-            title: "EliteCare Healthcare Website",
+            title: "EliteCare",
             subTitle: "Node.js, React, Tailwind CSS",
-            description: "A platform for healthcare support, with features for NGO collaboration, community support, and AI-based health analysis."
+            description: "A platform for healthcare support, with features for NGO collaboration, community support, and AI-based health analysis.",
+            date: "2024"
         },
         {
-            title: "Finance Tracker",
+            title: "HUMAN",
+            subTitle: "React, Design, UI/UX, AI",
+            description: "A Self Development Website which is give personalized recommendations for growth in academics, finance, mental well-being, health. Improved interafec to 13% using AI integration",
+            date: "2023"
+        },
+        {
+            title: "Gmail Clone",
             subTitle: "React, CSS, AI Recommendations",
-            description: "A personal finance tracker integrated with AI for budget recommendations and progress tracking."
+            description: "A Gmail Clone with 15% more efficiency and new features integrated with AI",
+            date:"2024"
         }
     ],
     achievements: [
@@ -41,7 +45,7 @@ export const data = {
             description: "Awarded to the top 4.2% of LeetCoders for 100+ days of problem-solving in 2024."
         },
         {
-            title: "Smart India Hackathon 2024 Participant",
+            title: "Smart India Hackathon 2024 Semi Finalist",
             description: "Presented 'EliteCare' at a national-level hackathon, earning industry recognition."
         }
     ],
