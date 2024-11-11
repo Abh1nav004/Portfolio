@@ -6,7 +6,7 @@ export const data = {
             description: "Event Management, Task Completion, Team Work, Problem-solving, Collaboration"
         },
         {
-            title: "Smart India Hackathon Participant",
+            title: "EliteCare Developer",
             subTitle: "SIH - India",
             description: "Developed 'EliteCare' healthcare website using Node.js, React, and Tailwind. Features include NGO networking, community support, and AI-driven health analysis."
         }
